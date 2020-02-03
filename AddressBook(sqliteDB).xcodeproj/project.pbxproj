@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E92534A23E3FE1D008542FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92534923E3FE1D008542FE /* AppDelegate.m */; };
+		2E92534D23E3FE1D008542FE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92534C23E3FE1D008542FE /* SceneDelegate.m */; };
+		2E92535023E3FE1D008542FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92534F23E3FE1D008542FE /* ViewController.m */; };
+		2E92535323E3FE1D008542FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E92535123E3FE1D008542FE /* Main.storyboard */; };
+		2E92535523E3FE20008542FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E92535423E3FE20008542FE /* Assets.xcassets */; };
+		2E92535823E3FE20008542FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E92535623E3FE20008542FE /* LaunchScreen.storyboard */; };
+		2E92535B23E3FE20008542FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92535A23E3FE20008542FE /* main.m */; };
+		2E92536623E3FEBD008542FE /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92536523E3FEBD008542FE /* DBManager.m */; };
+		2E92536823E402C2008542FE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E92536223E3FE83008542FE /* libsqlite3.tbd */; };
+		2E92536A23E431BB008542FE /* iosDB.sql in Resources */ = {isa = PBXBuildFile; fileRef = 2E92536923E431BB008542FE /* iosDB.sql */; };
+		2E92536D23E436F2008542FE /* ViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92536C23E436F2008542FE /* ViewControllerTableViewController.m */; };
+		2E92537023E43B28008542FE /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E92536F23E43B28008542FE /* EditInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E92534523E3FE1D008542FE /* AddressBook(sqliteDB).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AddressBook(sqliteDB).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E92534823E3FE1D008542FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E92534923E3FE1D008542FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E92534B23E3FE1D008542FE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2E92534C23E3FE1D008542FE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2E92534E23E3FE1D008542FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E92534F23E3FE1D008542FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E92535223E3FE1D008542FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E92535423E3FE20008542FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E92535723E3FE20008542FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E92535923E3FE20008542FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E92535A23E3FE20008542FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E92536223E3FE83008542FE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2E92536423E3FEBD008542FE /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		2E92536523E3FEBD008542FE /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		2E92536923E431BB008542FE /* iosDB.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosDB.sql; sourceTree = SOURCE_ROOT; };
+		2E92536B23E436F2008542FE /* ViewControllerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTableViewController.h; sourceTree = "<group>"; };
+		2E92536C23E436F2008542FE /* ViewControllerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTableViewController.m; sourceTree = "<group>"; };
+		2E92536E23E43B28008542FE /* EditInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
+		2E92536F23E43B28008542FE /* EditInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E92534223E3FE1D008542FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E92536823E402C2008542FE /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E92533C23E3FE1D008542FE = {
+			isa = PBXGroup;
+			children = (
+				2E92534723E3FE1D008542FE /* AddressBook(sqliteDB) */,
+				2E92534623E3FE1D008542FE /* Products */,
+				2E92536123E3FE83008542FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E92534623E3FE1D008542FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E92534523E3FE1D008542FE /* AddressBook(sqliteDB).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E92534723E3FE1D008542FE /* AddressBook(sqliteDB) */ = {
+			isa = PBXGroup;
+			children = (
+				2E92534823E3FE1D008542FE /* AppDelegate.h */,
+				2E92534923E3FE1D008542FE /* AppDelegate.m */,
+				2E92536423E3FEBD008542FE /* DBManager.h */,
+				2E92536523E3FEBD008542FE /* DBManager.m */,
+				2E92536923E431BB008542FE /* iosDB.sql */,
+				2E92534B23E3FE1D008542FE /* SceneDelegate.h */,
+				2E92534C23E3FE1D008542FE /* SceneDelegate.m */,
+				2E92534E23E3FE1D008542FE /* ViewController.h */,
+				2E92536E23E43B28008542FE /* EditInfoViewController.h */,
+				2E92536F23E43B28008542FE /* EditInfoViewController.m */,
+				2E92534F23E3FE1D008542FE /* ViewController.m */,
+				2E92535123E3FE1D008542FE /* Main.storyboard */,
+				2E92536B23E436F2008542FE /* ViewControllerTableViewController.h */,
+				2E92536C23E436F2008542FE /* ViewControllerTableViewController.m */,
+				2E92535423E3FE20008542FE /* Assets.xcassets */,
+				2E92535623E3FE20008542FE /* LaunchScreen.storyboard */,
+				2E92535923E3FE20008542FE /* Info.plist */,
+				2E92535A23E3FE20008542FE /* main.m */,
+			);
+			path = "AddressBook(sqliteDB)";
+			sourceTree = "<group>";
+		};
+		2E92536123E3FE83008542FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E92536223E3FE83008542FE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E92534423E3FE1D008542FE /* AddressBook(sqliteDB) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E92535E23E3FE20008542FE /* Build configuration list for PBXNativeTarget "AddressBook(sqliteDB)" */;
+			buildPhases = (
+				2E92534123E3FE1D008542FE /* Sources */,
+				2E92534223E3FE1D008542FE /* Frameworks */,
+				2E92534323E3FE1D008542FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AddressBook(sqliteDB)";
+			productName = "AddressBook(sqliteDB)";
+			productReference = 2E92534523E3FE1D008542FE /* AddressBook(sqliteDB).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E92533D23E3FE1D008542FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ranajit Chandra";
+				TargetAttributes = {
+					2E92534423E3FE1D008542FE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E92534023E3FE1D008542FE /* Build configuration list for PBXProject "AddressBook(sqliteDB)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E92533C23E3FE1D008542FE;
+			productRefGroup = 2E92534623E3FE1D008542FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E92534423E3FE1D008542FE /* AddressBook(sqliteDB) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E92534323E3FE1D008542FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E92536A23E431BB008542FE /* iosDB.sql in Resources */,
+				2E92535823E3FE20008542FE /* LaunchScreen.storyboard in Resources */,
+				2E92535523E3FE20008542FE /* Assets.xcassets in Resources */,
+				2E92535323E3FE1D008542FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E92534123E3FE1D008542FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E92536D23E436F2008542FE /* ViewControllerTableViewController.m in Sources */,
+				2E92535023E3FE1D008542FE /* ViewController.m in Sources */,
+				2E92534A23E3FE1D008542FE /* AppDelegate.m in Sources */,
+				2E92535B23E3FE20008542FE /* main.m in Sources */,
+				2E92534D23E3FE1D008542FE /* SceneDelegate.m in Sources */,
+				2E92536623E3FEBD008542FE /* DBManager.m in Sources */,
+				2E92537023E43B28008542FE /* EditInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E92535123E3FE1D008542FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92535223E3FE1D008542FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E92535623E3FE20008542FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E92535723E3FE20008542FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E92535C23E3FE20008542FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E92535D23E3FE20008542FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E92535F23E3FE20008542FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AddressBook(sqliteDB)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cranajit.AddressBook-sqliteDB-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E92536023E3FE20008542FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AddressBook(sqliteDB)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cranajit.AddressBook-sqliteDB-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E92534023E3FE1D008542FE /* Build configuration list for PBXProject "AddressBook(sqliteDB)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E92535C23E3FE20008542FE /* Debug */,
+				2E92535D23E3FE20008542FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E92535E23E3FE20008542FE /* Build configuration list for PBXNativeTarget "AddressBook(sqliteDB)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E92535F23E3FE20008542FE /* Debug */,
+				2E92536023E3FE20008542FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E92533D23E3FE1D008542FE /* Project object */;
+}
